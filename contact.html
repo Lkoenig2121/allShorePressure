@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>  
+<body>   
+         
+    <div id="imgContainer">
+        <img id="mainImage" src="images/image1.png">
+    </div>
+
+    <div id="tabs">
+        <span class="tab underline"><a href="index.html">Home</a></span>
+        <span class="tab underline"><a href="services.html">Services</a></span>
+        <span class="tab">Contact</a></span>
+    </div>
+
+    <div id="serviceInstructions">
+        Free Estimates: Feel free to simply text or call 908-278-2106. 
+        You may also fill out your information here and we will respond accordingly.
+    </div>
+
+    <form action="https://formsubmit.co/Lkoenig2121@gmail.com"
+    method="POST"
+    enctype="multipart/form-data"
+    name="EmailForm"
+    id="form">
+
+    <div class="contactDemands">Name:</div>
+    <input class="input" type="text" size="19" name="Name" autocomplete="off"><br><br>
+    
+    <div class="contactDemands">Email:</div>
+    <input class="input" type="email" name="Email" autocomplete="off"><br><br> 
+    
+    <div class="contactDemands">Phone Number:</div>
+    <input class="input" type="number" name="Number" autocomplete="off">
+    <br><br> 
+
+    <div class="contactDemands">Message:</div>
+    <textarea class="largerInput" name="Message" rows="5" cols="40" style="resize: none" autocomplete="off"></textarea>
+    <br><br>
+
+
+    <div class="contactDemands">Pictures:</div>
+    <input class="inputFile" type="file" name="Input" multiple>
+    <div class="textFile">(Use command/control + click if choosing multiple files)</div>
+    <br>
+    
+    <button id="submit" type="submit" value="Submit">Send</button>
+    </form>  
+
+
+
+</body>
+</html>
